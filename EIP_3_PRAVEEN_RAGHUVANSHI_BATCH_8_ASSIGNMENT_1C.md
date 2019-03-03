@@ -10,3 +10,6 @@ Convolution is the method of combining two functions to generate the third funct
 
 An epoch is a term used in deep neural networks. One epoch is a single pass through of a model across whole training set. It involves covering both forward and backward pass through. Number of epoch influence the efficiency of a model and may increase or decrease it. More the number of epochs, more time will be taken to execute a model. Time to complete an epoch increases as we increase the training set.
 
+## 1x1 convolution
+
+1x1 convolution is a technique used in deep neural network to modify the number of channels in a hidden layer.  There is no effect of 1x1 on other parameters. It allows extending  or shrinking of channels as per the need arises. Consider a case of an digit which has a dimension of 28(Height) x 28(Width) x 32(Channels). As number of classes for a digit is 10, we can apply 1x1 convolution to reduce the channels to 10. 
